@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # File: guessinggame.sh
 
-files=3
+files=$(pwd | ls | wc -l)
 
 echo "This is a guessing game"
 echo "Guess how many files are in the directory"
